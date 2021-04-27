@@ -1,0 +1,60 @@
+#arbol_uno, #arbol_dos, #arbol_tres  {
+  /* animation: move infinite alternate 1s; */
+  transform-box: fill-box;
+  transform-origin: bottom;
+  /* animation-timing-function: ease-in-out; */
+}
+
+#arbol_uno {
+  animation-timing-function: ease-in-out;
+}
+
+#arbol_dos {
+  animation-timing-function:ease-in;
+}
+#arbol_tres {
+  animation-timing-function: ease;
+}
+.main__preview {
+  padding: 20px;
+  display: flex;
+}
+
+#a6835eff-9637-4cbf-a41d-043a371e68bf {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+
+.thumb {
+  height: 75px;
+  border: 1px solid #000;
+  margin: 10px 5px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@keyframes move{
+  from {
+    transform: rotate(-3deg);
+  }to {
+    transform: rotate(3deg);
+
+  }
+} */
